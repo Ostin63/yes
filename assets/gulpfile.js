@@ -16,7 +16,7 @@ gulp.task('w3c', function () {
       //generateCheckstyleReport: 'w3cErrors/validation.xml'
     }))
 });
- 
+/* 
 gulp.task('less', function () {
   gulp.src('./assets/less/*.less')
     .pipe(less('./assets/css/'))
@@ -28,7 +28,7 @@ gulp.task('less', function () {
     }))
     .pipe(gulp.dest('./public/css/'))
     .pipe(connect.reload());
-});
+});*/
 
 gulp.task('html', function () {
   return gulp.src('./assets/*.html')
