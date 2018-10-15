@@ -10,13 +10,22 @@
     "type": "git",
     "url": "git+https://github.com/Ostin63/yes.git"
   },
-  "author": "GrossMaster",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ostin63/yes/issues"
   },
   "homepage": "https://github.com/Ostin63/yes#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-connect": "^5.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-less": "^4.0.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-rename": "^1.4.0",
+    "run-sequence": "^2.2.1"
   }
 }
